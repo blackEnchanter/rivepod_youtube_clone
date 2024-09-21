@@ -1,0 +1,58 @@
+name: rivepod_youtube_clone
+description: "A new Flutter project."
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+  # Flexible bottom sheet with the ability to scroll content even without a list.
+  bottom_sheet: ^4.0.4
+  # Flutter library to load and cache network images. Can also be used with placeholder and error widgets.
+  cached_network_image: ^3.4.1
+  # Flutter plugin for Cloud Firestore, a cloud-hosted, noSQL database with live synchronization and offline support on Android and iOS.
+  cloud_firestore: ^5.4.2
+  #FFmpeg Kit for Flutter. Supports Android, iOS and macOS platforms.
+  ffmpeg_kit_flutter: ^6.0.3
+  # Flutter plugin for Firebase Auth, enabling authentication using passwords, phone numbers and identity providers like Google, Facebook and Twitter.
+  firebase_auth: ^5.3.0
+  # Flutter plugin for Firebase Core, enabling connecting to multiple Firebase apps
+  firebase_core: ^3.5.0
+  # Flutter plugin for Firebase Cloud Storage, a powerful, simple, and cost-effective object storage service for Android and iOS.
+  firebase_storage: ^12.3.1
+  # A reactive caching and data-binding framework. Riverpod makes working with asynchronous code a breeze.
+  flutter_riverpod: ^2.5.1
+  # The Font Awesome Icon pack available as Flutter Icons. Provides 2000 additional icons to use in your apps.
+  font_awesome_flutter: ^10.7.0
+  # A package that helps you work with fractions and mixed fractions.
+  fraction: ^5.0.3
+  # Flutter plugin for Google Sign-In, a secure authentication system for signing in with a Google account.
+  google_sign_in: ^6.2.1
+  # Flutter plugin for selecting images from the Android and iOS image library, and taking new pictures with the camera.
+  image_picker: ^1.1.2
+  # Contains code to deal with internationalized/localized messages, date and number formatting and parsing, bi-directional text, and other internationalization issues.
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true

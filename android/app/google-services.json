@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "979948401397",
+    "project_id": "rivepod--clone",
+    "storage_bucket": "rivepod--clone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979948401397:android:4584e3a3b4ff208409cbbc",
+        "android_client_info": {
+          "package_name": "com.example.rivepod_youtube_clone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb1v34SAkOconIza81vfLD9nUJsn3UQ1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
